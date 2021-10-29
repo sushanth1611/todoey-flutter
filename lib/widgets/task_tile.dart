@@ -30,7 +30,7 @@ class TaskTile extends StatelessWidget {
           Icons.delete,
           color: Colors.red,
         ),
-        onPressed: removeTask(),
+        onPressed: () => removeTask(),
       ),
     );
   }
